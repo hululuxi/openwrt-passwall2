@@ -260,8 +260,8 @@ jobs:
           make package/feeds/passwall_packages/v2ray-geodata/compile -j$(nproc) V=s
           make package/feeds/passwall_packages/hysteria/compile -j$(nproc) V=s
           make package/feeds/passwall_packages/naiveproxy/compile -j$(nproc) V=s
-          make package/feeds/passwall_packages/shadowsocks-rust/compile -j$(nproc) V=s
-          make package/feeds/passwall_packages/shadowsocksr-libev/compile -j$(nproc) V=s
+          make package/feeds/passwall_packages/shadowsocks-rust/compile -j$(nproc) V=sc
+          make package/feeds/passwall_packages/shadowsocksr-libev/compile -j$(nproc) V=sc
           make package/feeds/passwall_packages/simple-obfs/compile -j$(nproc) V=s
           make package/feeds/passwall_packages/sing-box/compile -j$(nproc) V=s
           make package/feeds/passwall_packages/tuic-client/compile -j$(nproc) V=s
