@@ -79,7 +79,7 @@ jobs:
       matrix:
         include:
           - sdk_ver: "22.03"
-            luci_ver: "22.03"
+            luci_ver: "24.33"
             sdk_url: https://downloads.openwrt.org/releases/22.03.7/targets/x86/64/openwrt-sdk-22.03.7-x86-64_gcc-11.2.0_musl.Linux-x86_64.tar.xz
 
           - sdk_ver: "24.10"
